@@ -95,12 +95,7 @@ void UniversalChart::hoverMoveEvent(QHoverEvent *event)
 
 void UniversalChart::draw()
 {
-    _painter.setStrokeStyle(QColor("#ff0000"));
 
-    _painter.moveTo(50, 50);
-    _painter.lineTo(100,100);
-
-    _painter.stroke();
 }
 
 bool UniversalChart::initialized() const
